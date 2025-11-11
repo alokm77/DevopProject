@@ -58,7 +58,7 @@ This will create the EC2 instance, security groups, and install necessary tools 
    - Save the token for integration with Jenkins.
 
 ## Jenkins Configuration
-1. **Add Jenkins Credentials**:
+1. **Add Jenkins Credentials**::
    - Add the SonarQube token, AWS access key, and secret key in `Manage Jenkins → Credentials → System → Global credentials`.
 2. **Install Required Plugins**:
    - Install plugins such as SonarQube Scanner, NodeJS, Docker, and Prometheus metrics under `Manage Jenkins → Plugins`.
